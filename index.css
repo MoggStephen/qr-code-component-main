@@ -48,21 +48,12 @@ body{
     font-size: 22px;
     color: var(--dark-blue);
 
-    margin-top: 20px;
+    margin: 15px 0px;
 }
 .lightText{
     color: var(--grayish-blue);
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-paragraph);
 
-    margin: 20px 0px;
-}
-.attribution{ 
-    position: absolute;
-    bottom: 0;
-    font-size: 11px;
-    text-align: center;
-}
-.attribution  { 
-    color: hsl(228, 45%, 44%);
+    margin: 15px 0px;
 }
