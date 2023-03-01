@@ -36,14 +36,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 - Always using alts on images and using aria attributes where i can.
 - Using comments for readability
+- Using apropriate font-size, padding, width, padding/margin and border-radius units.
 
 ### What I learned
 
-Ive never used transform before so i definitely have learnt about some of its uses.
+Ive never used transform before so i definitely have learnt about some of its uses. Will use flexbox in the future though
 
 ### Continued development
 
 Always mobile first!
+Use flexbox.
+Stick to using custom css properties
+Stick to using the apropriate css units for sizing.
 
 ## Author
 

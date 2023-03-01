@@ -10,12 +10,19 @@
     --dark-blue: hsl(218, 44%, 22%);
 
     /*font*/
-    --font-size-paragraph: 15px;
+    --font-size-paragraph: 0.9375rem;
+    --font-size-h1: 1.25rem;
     --font-family: 'Outfit', sans-serif;
     --font-weight-small: 400;
     --font-weight-big: 700;
 
-    --border-radius: 15px;
+    /*border radius*/
+    --border-radius-img: 0.7rem;
+    --border-radius-container: 1.5rem;
+
+    /*random*/
+    --padding-container: 1rem;
+    --margin-text-item: 0.9375rem;
 }
 *{
     /*Boilerplate styles*/
@@ -23,39 +30,39 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-size: var(--font-size-paragraph);
-    text-align: center;
     font-family: var(--font-family);
+    text-align: center;
 }
 body{
     background-color: var(--light-gray);
 }
 .mainContainer{
     background-color: var(--white);
-    border-radius: var(--border-radius);
-    padding: 20px;
-    width: 320px;
+    border-radius: var(--border-radius-container);
+    padding: 1rem;
+    width: 35ch;
 
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.textItem{
+    margin: var(--margin-text-item) var(--margin-text-item) 0 var(--margin-text-item);
+}
 .qrCodeImg{
-    width: 280px;
-    border-radius: var(--border-radius)
+    max-width: 100%;
+    border-radius: var(--border-radius-img);
 }
 .boldText{
-    font-weight: var(--font-weight-big);
-    font-size: 22px;
     color: var(--dark-blue);
-
-    margin: 15px 0px;
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-big);
 }
 .lightText{
     color: var(--grayish-blue);
-    font-weight: var(--font-weight-small);
     font-size: var(--font-size-paragraph);
-
-    margin: 15px 0px;
+    font-weight: var(--font-weight-small);
+    
+    margin-bottom: 1.125rem;
 }
